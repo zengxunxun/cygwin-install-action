@@ -8,7 +8,7 @@ jobs:
       - name: Set up Cygwin
         uses: egor-tensin/setup-cygwin@v4
         with:
-          packages: cmake gcc-g++
+          packages: cmake gcc-g++ autoconf
           
       - name: Check out repository code
         uses: actions/checkout@v4 # Clones the repo onto the runner
