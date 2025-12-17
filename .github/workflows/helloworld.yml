@@ -21,3 +21,6 @@ jobs:
         
       - name: cat 
         run: cat hello.c
+        
+      - name: compile 
+        run: gcc hello.c && ./a.out
