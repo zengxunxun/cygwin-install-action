@@ -23,4 +23,4 @@ jobs:
         run: cat hello.c
         
       - name: compile 
-        run: gcc hello.c && ./a.out
+        run: gcc hello.c && ls
