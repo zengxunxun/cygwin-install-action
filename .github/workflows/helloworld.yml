@@ -7,6 +7,12 @@ jobs:
     steps:
       - name: Install Cygwin Action
         uses: cygwin/cygwin-install-action@v6
+
+      - name: Check out repository code
+        uses: actions/checkout@v4 # Clones the repo onto the runner
         
       - name: my-step
         run: echo "Hello World!"
+      
+      - name: my-step
+        run: ls
